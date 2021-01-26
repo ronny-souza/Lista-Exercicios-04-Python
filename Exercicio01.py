@@ -14,6 +14,5 @@ while numero != 0:
         print("Foi digitado o número 0. Parando o programa...")
         break
 
-
 for i in range(len(numeros)):
     print(f"O {i + 1}º número foi: {numeros[i]}")
