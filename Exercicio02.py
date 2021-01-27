@@ -11,7 +11,6 @@ tabelaFaltas = [['Brasil', 'Italia', [10, 9]], ['Brasil', 'Espanha', [5, 7]], 'I
 totalFaltas = tabelaFaltas[0][2][0] + tabelaFaltas[0][2][1] + tabelaFaltas[1][2][0] + tabelaFaltas[1][2][1] + tabelaFaltas[4][0] + tabelaFaltas[4][1]
 timeMaisFaltas = tabelaFaltas[0][0]
 timeMenosFaltas = tabelaFaltas[1][0]
-print
-(f"O total de faltas do campeonato foi: {totalFaltas}")
+print(f"O total de faltas do campeonato foi: {totalFaltas}")
 print(f"O time que mais cometeu faltas foi: {timeMaisFaltas} no jogo {tabelaFaltas[0][0]} X {tabelaFaltas[0][1]}")
 print(f"O time que menos cometeu faltas foi: {timeMenosFaltas} no jogo {tabelaFaltas[1][0]} X {tabelaFaltas[1][1]}")
